@@ -348,7 +348,34 @@
     display: none;
   }
 /* ------------------------------------------------------------------------- */
-  h1 {
-      color:green;
-      text-transform: uppercase;
+/* -------------body---------------------- */
+body {
+  margin: 0;
+  display: block;
+}
+html, body {
+  height: 100%;
+  font-family: ariel, sans-serif;
+  color: #5f6386;
+}
+/* -----------------div------------------- */
+div {
+  display: block;
+}
+  /* -----------container---------------- */
+  #container {
+    position: relative;
+    min-height: 100%;
+    min-width: 1100px;
   }
+/* -------------Fixed nav---------------- */
+#fixed-nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 5px 0;
+  width: 100%;
+  min-width: 1100px;
+  background: white;
+  z-index: 10;
+}
